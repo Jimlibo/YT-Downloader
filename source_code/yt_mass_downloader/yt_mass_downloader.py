@@ -1,5 +1,5 @@
 """
-Created October 1, 2022
+Created October 1, 2023
 author: Dimitris Lymperopoulos
 Description: A class that implements a multiple-files YouTube downloader
 
@@ -35,7 +35,7 @@ import os
 import re
 from datetime import datetime
 from pytube import YouTube
-from ..utils import logger_info, logger_error
+from source_code.utils import logger_info, logger_error
 
 
 class YtMassDownloader:
