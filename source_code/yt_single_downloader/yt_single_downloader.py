@@ -31,7 +31,7 @@ import argparse
 import os
 from datetime import datetime
 from pytube import YouTube
-from ..utils import logger_info, logger_error
+from source_code.utils import logger_info, logger_error
 
 
 class YtSingleDownloader:
@@ -81,9 +81,9 @@ def parse_input(args=None):
     """
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-v", "--video-url", type=str, action="store", metavar="search_file",
+    parser.add_argument("-v", "--video-url", type=str, action="store", metavar="video_url",
                         required=True, help="The video url")
-    parser.add_argument("-d", "--dest-dir", type=str, action="store", metavar="dest_dir",
+    parser.add_argument("-d", "--dest-file", type=str, action="store", metavar="dest_file",
                         required=True, help="The destination file that the video will be downloaded")
     parser.add_argument('--audio-only', action='store_true', required=False,
                         help="Whether to download the video as mp4 (audio and video) or as mp3 (audio only)")
