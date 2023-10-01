@@ -1,8 +1,8 @@
 """
 Created October 1, 2022,
 author: Dimitris Lymperopoulos
+Description: A class that implements a multiple-files YouTube downloader
 
-This is a simple script to easily download multiple video files from YouTube.
 Usage:
 1)
 Download a fixed amount of  videos from each artist based on a text file and store them at a specified directory
@@ -35,6 +35,7 @@ import os
 import re
 from datetime import datetime
 from pytube import YouTube
+from ..utils import logger_info, logger_error
 
 
 class YtMassDownloader:
