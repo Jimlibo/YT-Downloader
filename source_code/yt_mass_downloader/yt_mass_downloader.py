@@ -1,5 +1,5 @@
 """
-Created October 1, 2022,
+Created October 1, 2022
 author: Dimitris Lymperopoulos
 Description: A class that implements a multiple-files YouTube downloader
 

@@ -1,5 +1,5 @@
 """
-Created October 1, 2022,
+Created October 1, 2022
 author: Dimitris Lymperopoulos
 Description: A file containing some utility functions
 """
