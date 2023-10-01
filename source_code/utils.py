@@ -11,4 +11,4 @@ def logger_info(message):   # function to simply print the message
 
 def logger_error(message):  # function that prints the error message and then exits
     print("[ERROR]: " + message)
-    exit(-1)
+    exit(1)
