@@ -66,6 +66,11 @@ OneRepublic
 David Guetta
 ```
 
+\
+\
+You can read more about the downloader usage in its [documentation]
+
+[documentation]: https://github.com/Jimlibo/YT-Downloader/blob/main/source_code/downloader.py
 
 
 
