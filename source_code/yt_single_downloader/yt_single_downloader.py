@@ -31,7 +31,11 @@ import argparse
 import os
 from datetime import datetime
 from pytube import YouTube
-from source_code.utils import logger_info, logger_error
+
+try:
+    from source_code.utils import logger_info, logger_error
+except ModuleNotFoundError:
+    from utils import logger_info, logger_error
 
 
 class YtSingleDownloader:
